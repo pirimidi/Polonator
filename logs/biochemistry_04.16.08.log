@@ -1,0 +1,1394 @@
+04-16 11:44:04 root         INFO     ---	-	--> Started polony sequencing
+04-16 11:44:04 root         INFO     ---	-	--> Number of installed_flowcells: 1
+04-16 11:44:04 root         INFO     ---	-	--> Cycle_list key: WL1
+04-16 11:44:04 root         INFO     ---	-	--> Cycle number: 0
+04-16 11:44:04 root         INFO     ---	-	--> Mux object constructed
+04-16 11:44:04 root         INFO     ---	-	--> Serial port object constructed
+04-16 11:44:04 root         INFO     ---	-	--> Rotary valve object constructed
+04-16 11:44:04 root         INFO     ---	-	--> Syringe pump object constructed
+04-16 11:44:04 root         INFO     ---	-	--> Temperature controller object constructed
+04-16 11:44:04 root         INFO     WL1	0	--> Retrieved Excel volumes from file: [biochemistry object]
+04-16 11:44:04 root         INFO     WL1	0	--> Retrieved configuration parameters from file: [biochemistry object]
+04-16 11:44:04 root         INFO     WL1	0	--> Biochemistry object is constructed: [biochemistry object]
+04-16 11:44:05 root         INFO     ---	-	--> Switch communication to temperature controller 1
+04-16 11:44:05 root         INFO     ---	-	--> Set temperature control ON
+04-16 11:44:05 root         INFO     ---	-	--> Set temperature controller to 30 C [set_temp]
+04-16 11:44:05 root         INFO     WL1	0	--> START: Wait for steady-state - poll temperature 30 C: [running]
+04-16 11:44:05 root         WARNING  WL1	0	--> END: Time to set steady-state temperature: 0.00 minutes and current temperature: 28.24 C: [running]
+04-16 11:44:05 root         INFO     ---	-	--> Set temperature control OFF
+04-16 11:44:05 root         INFO     ---	-	--> Switch communication to temperature controller 2
+04-16 11:44:05 root         INFO     ---	-	--> Set temperature control ON
+04-16 11:44:05 root         INFO     ---	-	--> Set temperature controller to 30 C [set_temp]
+04-16 11:44:05 root         INFO     WL1	0	--> START: Wait for steady-state - poll temperature 30 C: [running]
+04-16 11:44:05 root         WARNING  WL1	0	--> END: Time to set steady-state temperature: 0.00 minutes and current temperature: 28.29 C: [running]
+04-16 11:44:05 root         INFO     ---	-	--> Set temperature control OFF
+04-16 11:44:05 root         INFO     WL1	0	--> Initialized flowcell temperatures to 30 C and switched temperature controller 1/2 to OFF state: [running]
+
+04-16 11:44:05 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:11 root         INFO     ---	-	--> Initialized syringe pump object
+04-16 11:44:11 root         INFO     WL1	0	--> Initialized syringe pump with default operation settings: [running]
+04-16 11:44:11 root         INFO     ---	-	--> Switch communication to reagent block cooler
+04-16 11:44:11 root         INFO     ---	-	--> Set temperature control ON
+04-16 11:44:11 root         INFO     ---	-	--> Set temperature controller to 10 C [set_temp]
+04-16 11:44:11 root         INFO     WL1	0	--> Initialized reagent block to 4 C: [running]
+
+04-16 11:44:11 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 11:44:12 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:12 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:12 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 11:44:13 root         INFO     ---	-	--> Set syringe pump absolute volume to 220
+04-16 11:44:13 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:14 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:14 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:14 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 11:44:14 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:15 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:15 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 11:44:15 root         INFO     ---	-	--> Set syringe pump absolute volume to 184
+04-16 11:44:15 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:16 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:17 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:17 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 11:44:17 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:17 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:17 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 11:44:18 root         INFO     ---	-	--> Set syringe pump absolute volume to 199
+04-16 11:44:18 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:19 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:19 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:19 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 11:44:19 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:19 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:20 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 11:44:20 root         INFO     ---	-	--> Set syringe pump absolute volume to 182
+04-16 11:44:20 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:21 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:21 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:21 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 11:44:22 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:22 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:22 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 11:44:23 root         INFO     ---	-	--> Set syringe pump absolute volume to 199
+04-16 11:44:23 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:23 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:24 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:24 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 11:44:24 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:24 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:24 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 11:44:25 root         INFO     ---	-	--> Set syringe pump absolute volume to 184
+04-16 11:44:25 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:26 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:26 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:26 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 11:44:27 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:27 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:27 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 11:44:28 root         INFO     ---	-	--> Set syringe pump absolute volume to 193
+04-16 11:44:28 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:29 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:29 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:29 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 11:44:29 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:29 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:30 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 11:44:30 root         INFO     ---	-	--> Set syringe pump absolute volume to 208
+04-16 11:44:30 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:31 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:32 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:32 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 11:44:32 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:32 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:32 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 11:44:35 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:44:35 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:36 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:37 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:37 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:37 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 11:44:39 root         INFO     ---	-	--> Set syringe pump absolute volume to 719
+04-16 11:44:39 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:40 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:41 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:41 root         INFO     WL1	0	--> START: Clean V1 to syringe: [running]
+04-16 11:44:41 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 11:44:41 root         INFO     WL1	0	--> Draw 271 'Wash' 1 up to syringe pump port 5 and eject tube content to waste
+04-16 11:44:41 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:41 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:41 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 11:44:42 root         INFO     ---	-	--> Set syringe pump absolute volume to 271
+04-16 11:44:42 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:43 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:44 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:44 root         INFO     WL1	0	--> END: Cleaned V1 to syringe: [running]
+04-16 11:44:44 root         INFO     WL1	0	--> Initialized rotary valve V1: [running]
+
+04-16 11:44:44 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 11:44:44 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:44 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:44 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:44:45 root         INFO     ---	-	--> Set syringe pump absolute volume to 220
+04-16 11:44:45 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:46 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:46 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:46 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 11:44:47 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:47 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:47 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:44:48 root         INFO     ---	-	--> Set syringe pump absolute volume to 184
+04-16 11:44:48 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:48 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:49 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:49 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 11:44:49 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:49 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:49 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:44:50 root         INFO     ---	-	--> Set syringe pump absolute volume to 199
+04-16 11:44:50 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:51 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:51 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:51 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 11:44:51 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:52 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:52 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:44:52 root         INFO     ---	-	--> Set syringe pump absolute volume to 182
+04-16 11:44:52 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:53 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:54 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:54 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 11:44:54 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:54 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:54 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:44:55 root         INFO     ---	-	--> Set syringe pump absolute volume to 199
+04-16 11:44:55 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:56 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:56 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:56 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 11:44:56 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:56 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:57 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:44:57 root         INFO     ---	-	--> Set syringe pump absolute volume to 184
+04-16 11:44:57 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:44:58 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:44:58 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:44:58 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 11:44:59 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:44:59 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:44:59 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:45:00 root         INFO     ---	-	--> Set syringe pump absolute volume to 201
+04-16 11:45:00 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:00 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:01 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:01 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 11:45:02 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:02 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:02 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:45:05 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:45:05 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:06 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:07 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:07 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:07 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:45:09 root         INFO     ---	-	--> Set syringe pump absolute volume to 791
+04-16 11:45:09 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:10 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:11 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:11 root         INFO     WL1	0	--> START: Clean V2 to syringe: [running]
+04-16 11:45:11 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 11:45:11 root         INFO     WL1	0	--> Draw 347 'Wash' 1 up to syringe pump port 6 and eject tube content to waste
+04-16 11:45:11 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:11 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:12 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:45:13 root         INFO     ---	-	--> Set syringe pump absolute volume to 347
+04-16 11:45:13 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:13 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:14 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:14 root         INFO     WL1	0	--> END: Cleaned V2 to syringe: [running]
+04-16 11:45:14 root         INFO     WL1	0	--> Initialized rotary valve V2: [running]
+
+04-16 11:45:14 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:45:14 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:45:14 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:45:15 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:15 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:15 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:45:16 root         INFO     ---	-	--> Set syringe pump absolute volume to 191
+04-16 11:45:16 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:16 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:17 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:17 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:45:17 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:17 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:18 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:45:19 root         INFO     ---	-	--> Set syringe pump absolute volume to 190
+04-16 11:45:19 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:19 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:19 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:20 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:45:20 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:20 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:21 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:45:21 root         INFO     ---	-	--> Set syringe pump absolute volume to 190
+04-16 11:45:21 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:21 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:22 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:22 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:45:23 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:23 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:23 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:45:24 root         INFO     ---	-	--> Set syringe pump absolute volume to 191
+04-16 11:45:24 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:24 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:25 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:25 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:45:25 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:26 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:26 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:45:27 root         INFO     ---	-	--> Set syringe pump absolute volume to 277
+04-16 11:45:27 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:27 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:28 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:28 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:45:28 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:28 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:29 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:45:30 root         INFO     ---	-	--> Set syringe pump absolute volume to 286
+04-16 11:45:30 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:30 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:31 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:31 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:45:31 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:31 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:32 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:45:34 root         INFO     ---	-	--> Set syringe pump absolute volume to 758
+04-16 11:45:34 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:34 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:35 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:35 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:45:36 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:36 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:37 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:45:39 root         INFO     ---	-	--> Set syringe pump absolute volume to 654
+04-16 11:45:39 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:39 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:40 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:40 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:45:40 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:41 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:41 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:45:44 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:45:44 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:44 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:46 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:46 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:46 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:45:49 root         INFO     ---	-	--> Set syringe pump absolute volume to 974
+04-16 11:45:49 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:49 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:51 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:51 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:45:52 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:45:52 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:52 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:45:55 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:45:55 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:45:56 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:45:57 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:45:57 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:45:58 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:46:00 root         INFO     ---	-	--> Set syringe pump absolute volume to 931
+04-16 11:46:00 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:46:00 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:46:02 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:02 root         INFO     WL1	0	--> Initialized rotary valve V3: [running]
+
+04-16 11:46:02 root         INFO     ---	-	--> Switch 3-way discrete valve V4 to NO (ligase)
+04-16 11:46:02 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:46:02 root         INFO     ---	-	--> Set syringe pump speed to 23
+04-16 11:46:02 root         INFO     ---	-	--> Set syringe pump valve position to 7
+04-16 11:46:11 root         INFO     ---	-	--> Set syringe pump absolute volume to 199
+04-16 11:46:11 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:46:12 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:46:12 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:12 root         INFO     ---	-	--> Switch 3-way discrete valve V4 to NC (ligase buffer)
+04-16 11:46:12 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:46:12 root         INFO     ---	-	--> Set syringe pump speed to 23
+04-16 11:46:13 root         INFO     ---	-	--> Set syringe pump valve position to 7
+04-16 11:46:27 root         INFO     ---	-	--> Set syringe pump absolute volume to 322
+04-16 11:46:27 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:46:27 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:46:28 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:28 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:46:28 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:46:28 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:46:28 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:46:28 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:46:29 root         INFO     ---	-	--> Set syringe pump absolute volume to 16
+04-16 11:46:29 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:46:29 root         INFO     ---	-	--> Set syringe pump valve position to 8
+04-16 11:46:29 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:29 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:46:29 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:46:30 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:46:30 root         INFO     ---	-	--> Set syringe pump absolute volume to 76
+04-16 11:46:30 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:46:31 root         INFO     ---	-	--> Set syringe pump valve position to 1
+04-16 11:46:31 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:31 root         INFO     WL1	0	--> Initialized ligase / ligase buffer: [running]
+
+04-16 11:46:31 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:46:31 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:46:31 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:46:31 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:46:32 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 11:46:35 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:46:35 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:46:35 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:46:36 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:36 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:46:37 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 11:46:40 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:46:40 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:46:40 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:46:42 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:42 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:46:42 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 11:46:45 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:46:45 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:46:45 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:46:47 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:47 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:46:47 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 11:46:48 root         INFO     ---	-	--> Set syringe pump absolute volume to 258
+04-16 11:46:48 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:46:49 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:46:49 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:49 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:46:49 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:46:50 root         INFO     ---	-	--> Set syringe pump valve position to 8
+04-16 11:46:50 root         INFO     ---	-	--> Set syringe pump absolute volume to 66
+04-16 11:46:50 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:46:50 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:46:51 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:51 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:46:51 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:46:51 root         INFO     ---	-	--> Set syringe pump valve position to 1
+04-16 11:46:52 root         INFO     ---	-	--> Set syringe pump absolute volume to 76
+04-16 11:46:52 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:46:52 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:46:52 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:52 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:46:52 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:46:53 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:46:56 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:46:56 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:46:56 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 11:46:59 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:46:59 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:46:59 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:47:02 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:47:02 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:47:03 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 11:47:05 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:47:06 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:47:06 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 11:47:08 root         INFO     ---	-	--> Set syringe pump absolute volume to 633
+04-16 11:47:08 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:47:08 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 11:47:10 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:47:10 root         INFO     WL1	0	--> START: Mix reagent in mixing chamber for 30 seconds: [running]
+04-16 11:47:10 root         INFO     ---	-	--> Mixing chamber in use
+04-16 11:47:10 root         INFO     WL1	0	--> Wait for 30 seconds, i.e. mixing time
+04-16 11:47:40 root         INFO     ---	-	--> Mixing chamber is off
+04-16 11:47:40 root         INFO     WL1	0	--> END: Mixed reagent in mixing chamber for 30 seconds: [running]
+04-16 11:47:40 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:47:40 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:47:40 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 11:47:43 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:47:43 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:47:44 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:47:45 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:47:45 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:47:46 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 11:47:48 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:47:48 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:47:49 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:47:50 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:47:50 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:47:51 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 11:47:54 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:47:54 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:47:54 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:47:55 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:47:55 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:47:56 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 11:47:57 root         INFO     ---	-	--> Set syringe pump absolute volume to 258
+04-16 11:47:57 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:47:57 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:47:58 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:47:58 root         INFO     WL1	0	--> Initialized mixing chamber: [running]
+
+04-16 11:47:58 root         INFO     WL1	0	--> START: Prime both flowcells: [running]
+04-16 11:47:58 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:47:58 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:47:58 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:47:58 root         INFO     WL1	0	--> Switch rotary valve V3 to port 8
+04-16 11:47:58 root         INFO     WL1	0	--> Draw 'Wash 1' via V3-8 through flowcell 1 to syringe port 2
+04-16 11:47:58 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:47:58 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:47:59 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:01 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:48:02 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:02 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:03 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:03 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:04 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:07 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:48:07 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:07 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:08 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:08 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:09 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:12 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:48:12 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:12 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:13 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:13 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:14 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:14 root         INFO     ---	-	--> Set syringe pump absolute volume to 73
+04-16 11:48:14 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:15 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:15 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:15 root         INFO     WL1	0	--> END: Primed flowcell(s): [running]
+04-16 11:48:15 root         INFO     WL1	0	--> Initialized biochemistry sub-system: [running]
+
+04-16 11:48:15 root         INFO     WL1	0	--> Device initialization and Exonuclease I digestion is done: [running]
+
+04-16 11:48:16 root         INFO     ---	-	--> Cycle_list key: AM1
+04-16 11:48:16 root         INFO     ---	-	--> Cycle number: 1
+04-16 11:48:16 root         INFO     ---	-	--> Mux object constructed
+04-16 11:48:16 root         INFO     ---	-	--> Serial port object constructed
+04-16 11:48:16 root         INFO     ---	-	--> Rotary valve object constructed
+04-16 11:48:16 root         INFO     ---	-	--> Syringe pump object constructed
+04-16 11:48:16 root         INFO     ---	-	--> Temperature controller object constructed
+04-16 11:48:16 root         INFO     AM1	0	--> Retrieved Excel volumes from file: [biochemistry object]
+04-16 11:48:16 root         INFO     AM1	0	--> Retrieved configuration parameters from file: [biochemistry object]
+04-16 11:48:16 root         INFO     AM1	0	--> Biochemistry object is constructed: [biochemistry object]
+04-16 11:48:17 root         INFO     AM1	0	--> In cycle_ligation subroutine
+04-16 11:48:17 root         INFO     AM1	0	--> In strip_chem subroutine
+04-16 11:48:17 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:48:17 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:48:17 root         INFO     AM1	0	--> START: Fill with air to valve V3 COM-port: [strip_chem]
+04-16 11:48:17 root         INFO     ---	-	--> Switch 3-way discrete valve V7 to NC (air)
+04-16 11:48:17 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:48:17 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:48:17 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:48:18 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:48:18 root         INFO     AM1	0	--> Fill tube path with air to V3-COM
+04-16 11:48:18 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:48:18 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:18 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:19 root         INFO     ---	-	--> Set syringe pump absolute volume to 379
+04-16 11:48:19 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:20 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:20 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:20 root         INFO     ---	-	--> Switch 3-way discrete valve V7 to NO (Wash 1)
+04-16 11:48:20 root         INFO     AM1	0	--> END: Filled with air to valve V3 COM-port: [strip_chem]
+04-16 11:48:20 root         INFO     AM1	0	--> START: Draw air bubble to valve V3 COM-port: [strip_chem]
+04-16 11:48:20 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:48:20 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:48:20 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:48:21 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:48:21 root         INFO     AM1	0	--> Draw air gap of size 30 ul in front of COM-port
+04-16 11:48:21 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:48:21 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:21 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:21 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 11:48:22 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:22 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:22 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:22 root         INFO     AM1	0	--> END: Drawn air bubble to valve V3 COM-port: [strip_chem]
+04-16 11:48:22 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:48:23 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:48:23 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:24 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:26 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:48:27 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:27 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:28 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:28 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:29 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:30 root         INFO     ---	-	--> Set syringe pump absolute volume to 250
+04-16 11:48:30 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:30 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:30 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:30 root         INFO     AM1	0	--> START: Draw air bubble to valve V3 COM-port: [strip_chem]
+04-16 11:48:30 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:48:30 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:48:31 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:48:31 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:48:31 root         INFO     AM1	0	--> Draw air gap of size 30 ul in front of COM-port
+04-16 11:48:31 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:48:31 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:32 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:32 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 11:48:32 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:33 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:33 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:33 root         INFO     AM1	0	--> END: Drawn air bubble to valve V3 COM-port: [strip_chem]
+04-16 11:48:33 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:48:34 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:48:34 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:34 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:37 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:48:37 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:37 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:39 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:39 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:39 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:40 root         INFO     ---	-	--> Set syringe pump absolute volume to 250
+04-16 11:48:40 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:41 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:41 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:41 root         INFO     AM1	0	--> START: Draw air bubble to valve V3 COM-port: [strip_chem]
+04-16 11:48:41 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:48:41 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:48:42 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:48:42 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:48:42 root         INFO     AM1	0	--> Draw air gap of size 30 ul in front of COM-port
+04-16 11:48:42 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:48:42 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:43 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:43 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 11:48:43 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:43 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:43 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:43 root         INFO     AM1	0	--> END: Drawn air bubble to valve V3 COM-port: [strip_chem]
+04-16 11:48:43 root         INFO     AM1	0	--> START: Draw reagent into flowcell 0: [strip_chem]
+04-16 11:48:43 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:48:43 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:48:43 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:48:43 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:48:44 root         INFO     AM1	0	--> Do iterative flushes (2844 ul) and eject to waste
+04-16 11:48:44 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:48:44 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:45 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:48 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:48:48 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:48 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:49 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:49 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:50 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:53 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:48:53 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:53 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:55 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:55 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:48:55 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:48:58 root         INFO     ---	-	--> Set syringe pump absolute volume to 844
+04-16 11:48:58 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:48:58 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:48:59 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:48:59 root         INFO     AM1	0	--> END: Drawn reagent into flowcell 0: [strip_chem]
+04-16 11:48:59 root         INFO     AM1	0	--> START: Incubate reagent for 1 min: [strip_chem]
+04-16 11:49:59 root         INFO     AM1	0	--> END: Incubated reagent: [strip_chem]
+04-16 11:49:59 root         INFO     AM1	0	--> START: Draw air bubble to valve V3 COM-port: [strip_chem]
+04-16 11:49:59 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:49:59 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:50:00 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:50:00 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:50:00 root         INFO     AM1	0	--> Draw air gap of size 30 ul in front of COM-port
+04-16 11:50:00 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:50:00 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:50:01 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:50:01 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 11:50:01 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:50:01 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:50:02 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:50:02 root         INFO     AM1	0	--> END: Drawn air bubble to valve V3 COM-port: [strip_chem]
+04-16 11:50:02 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:50:02 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:50:02 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:50:03 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:50:05 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:50:06 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:50:06 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:50:07 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:50:07 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:50:08 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:50:09 root         INFO     ---	-	--> Set syringe pump absolute volume to 250
+04-16 11:50:09 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:50:09 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:50:09 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:50:09 root         INFO     AM1	0	--> START: Draw air bubble to valve V3 COM-port: [strip_chem]
+04-16 11:50:09 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:50:09 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:50:10 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:50:10 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:50:10 root         INFO     AM1	0	--> Draw air gap of size 30 ul in front of COM-port
+04-16 11:50:10 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:50:10 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:50:11 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:50:11 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 11:50:11 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:50:11 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:50:11 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:50:11 root         INFO     AM1	0	--> END: Drawn air bubble to valve V3 COM-port: [strip_chem]
+04-16 11:50:11 root         INFO     AM1	0	--> START: Draw reagent into flowcell 0: [strip_chem]
+04-16 11:50:11 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:50:11 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:50:11 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:50:11 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:50:12 root         INFO     AM1	0	--> Do iterative flushes (2844 ul) and eject to waste
+04-16 11:50:12 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:50:12 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:50:13 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:50:16 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:50:16 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:50:16 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:50:17 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:50:17 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:50:18 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:50:21 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:50:21 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:50:21 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:50:23 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:50:23 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:50:23 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:50:26 root         INFO     ---	-	--> Set syringe pump absolute volume to 844
+04-16 11:50:26 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:50:26 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:50:27 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:50:27 root         INFO     AM1	0	--> END: Drawn reagent into flowcell 0: [strip_chem]
+04-16 11:50:27 root         INFO     AM1	0	--> START: Incubate reagent for 1 min: [strip_chem]
+04-16 11:51:27 root         INFO     AM1	0	--> END: Incubated reagent: [strip_chem]
+04-16 11:51:27 root         INFO     AM1	0	--> START: Flush flowcell 3-times from port 2: [strip_chem]
+04-16 11:51:27 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:51:27 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:51:27 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:51:27 root         INFO     AM1	0	--> Switch rotary valve V3 to port 2
+04-16 11:51:27 root         INFO     AM1	0	--> Flush flowcells 3-times (3891 ul) and eject to waste
+04-16 11:51:27 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:51:27 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:51:28 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:51:31 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:51:31 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:51:31 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:51:32 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:51:33 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:51:33 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:51:36 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:51:36 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:51:36 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:51:38 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:51:38 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:51:38 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:51:41 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:51:41 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:51:41 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:51:43 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:51:43 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:51:44 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:51:46 root         INFO     ---	-	--> Set syringe pump absolute volume to 891
+04-16 11:51:46 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:51:46 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:51:48 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:51:48 root         INFO     AM1	0	--> END: Flushed flowcell 3-times from port 2: [strip_chem]
+04-16 11:51:48 root         INFO     AM1	0	--> START: Flush flowcell 3-times from port 8: [strip_chem]
+04-16 11:51:48 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:51:48 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:51:48 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:51:48 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:51:48 root         INFO     AM1	0	--> Flush flowcells 3-times (3891 ul) and eject to waste
+04-16 11:51:49 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:51:49 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:51:49 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:51:52 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:51:52 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:51:52 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:51:54 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:51:54 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:51:54 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:51:57 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:51:57 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:51:58 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:51:59 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:51:59 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:52:00 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:52:02 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:52:02 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:52:03 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:52:04 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:52:04 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:52:05 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:52:07 root         INFO     ---	-	--> Set syringe pump absolute volume to 891
+04-16 11:52:07 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:52:08 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:52:09 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:52:09 root         INFO     AM1	0	--> END: Flushed flowcell 3-times from port 8: [strip_chem]
+04-16 11:52:09 root         WARNING  AM1	0	--> Finished checmical strip - duration: 3.86 minutes
+
+04-16 11:52:09 root         INFO     AM1	0	--> In hyb subroutine
+04-16 11:52:09 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:52:09 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:52:09 root         INFO     AM1	0	--> START: Fill with air to valve V3 COM-port: [hyb]
+04-16 11:52:09 root         INFO     ---	-	--> Switch 3-way discrete valve V7 to NC (air)
+04-16 11:52:09 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:52:09 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:52:09 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:52:09 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:52:09 root         INFO     AM1	0	--> Fill tube path with air to V3-COM
+04-16 11:52:09 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:52:09 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:52:10 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:52:11 root         INFO     ---	-	--> Set syringe pump absolute volume to 379
+04-16 11:52:11 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:52:11 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:52:12 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:52:12 root         INFO     ---	-	--> Switch 3-way discrete valve V7 to NO (Wash 1)
+04-16 11:52:12 root         INFO     AM1	0	--> END: Filled with air to valve V3 COM-port: [hyb]
+04-16 11:52:12 root         INFO     AM1	0	--> START: Draw air bubble to valve V3 COM-port: [hyb]
+04-16 11:52:12 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:52:12 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:52:12 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:52:12 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:52:12 root         INFO     AM1	0	--> Draw air gap of size 30 ul in front of COM-port
+04-16 11:52:12 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:52:12 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:52:13 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:52:13 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 11:52:13 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:52:13 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:52:13 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:52:13 root         INFO     AM1	0	--> END: Drawn air bubble to valve V3 COM-port: [hyb]
+04-16 11:52:13 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:52:14 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:52:14 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:52:15 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:52:17 root         INFO     ---	-	--> Set syringe pump absolute volume to 625
+04-16 11:52:17 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:52:17 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:52:18 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:52:18 root         INFO     ---	-	--> Switch communication to temperature controller 1
+04-16 11:52:18 root         INFO     -AM1	0	--> Set target temperature to 52 C: [hyb]
+
+04-16 11:52:18 root         INFO     ---	-	--> Set temperature control ON
+04-16 11:52:18 root         INFO     ---	-	--> Set temperature controller to 59 C [set_temp]
+04-16 11:52:18 root         INFO     AM1	0	--> START: Wait for steady-state - poll temperature 51 C: [hyb]
+04-16 11:53:22 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 1.07 minutes and current temperature: 50.08 C: [hyb]
+04-16 11:53:22 root         INFO     AM1	0	--> START: Draw air bubble to valve V3 COM-port: [hyb]
+04-16 11:53:23 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:53:23 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:53:23 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:53:23 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:53:23 root         INFO     AM1	0	--> Draw air gap of size 30 ul in front of COM-port
+04-16 11:53:23 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:53:23 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:53:24 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:53:24 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 11:53:24 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:53:25 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:53:25 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:53:25 root         INFO     AM1	0	--> END: Drawn air bubble to valve V3 COM-port: [hyb]
+04-16 11:53:25 root         INFO     AM1	0	--> START: Draw reagent into flowcell 0: [hyb]
+04-16 11:53:25 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 11:53:25 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 11:53:25 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 11:53:25 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 11:53:25 root         INFO     AM1	0	--> Do iterative flushes (2844 ul) and eject to waste
+04-16 11:53:25 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 11:53:25 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:53:26 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:53:29 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:53:29 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:53:29 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:53:30 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:53:30 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:53:31 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:53:34 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 11:53:34 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:53:34 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:53:35 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:53:35 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 11:53:36 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 11:53:38 root         INFO     ---	-	--> Set syringe pump absolute volume to 844
+04-16 11:53:39 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 11:53:39 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 11:53:40 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 11:53:40 root         INFO     AM1	0	--> END: Drawn reagent into flowcell 0: [hyb]
+04-16 11:53:40 root         INFO     AM1	0	--> START: Incubate reagent for 5 min: [hyb]
+04-16 11:58:40 root         INFO     AM1	0	--> END: Incubated reagent: [hyb]
+04-16 11:58:40 root         INFO     ---	-	--> Switch communication to temperature controller 1
+04-16 11:58:40 root         INFO     AM1	0	--> Set target temperature to 42 C: [hyb]
+
+04-16 11:58:40 root         INFO     ---	-	--> Set temperature control ON
+04-16 11:58:40 root         INFO     ---	-	--> Set temperature controller to 35 C [set_temp]
+04-16 11:58:40 root         INFO     AM1	0	--> START: Wait for steady-state - poll temperature 43 C: [hyb]
+04-16 11:59:39 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 0.99 minutes and current temperature: 43.98 C: [hyb]
+04-16 11:59:39 root         INFO     AM1	0	--> START: Incubate reagent for 2 min: [hyb]
+04-16 12:01:39 root         INFO     AM1	0	--> END: Incubated reagent: [hyb]
+04-16 12:01:39 root         INFO     ---	-	--> Switch communication to temperature controller 1
+04-16 12:01:39 root         INFO     ---	-	--> Set temperature control OFF
+04-16 12:01:39 root         INFO     AM1	0	--> START: Flush flowcell 3-times from port 8: [hyb]
+04-16 12:01:39 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 12:01:39 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 12:01:39 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 12:01:39 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 12:01:39 root         INFO     AM1	0	--> Flush flowcells 3-times (3891 ul) and eject to waste
+04-16 12:01:39 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:01:39 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:01:40 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:01:40 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:01:40 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:01:42 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:01:42 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:01:42 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:01:43 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:01:46 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:01:46 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:01:46 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:01:48 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:01:48 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:01:48 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:01:51 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:01:51 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:01:51 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:01:52 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:01:52 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:01:53 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:01:53 root         INFO     ---	-	--> Set syringe pump absolute volume to 891
+04-16 12:01:53 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:01:54 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:01:54 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:01:54 root         INFO     AM1	0	--> END: Flushed flowcell 3-times from port 8: [hyb]
+04-16 12:01:54 root         INFO     AM1	0	--> START: Set temperature controller to 30 C: [hyb]
+04-16 12:01:54 root         INFO     ---	-	--> Switch communication to temperature controller 1
+04-16 12:01:54 root         INFO     ---	-	--> Set temperature control ON
+04-16 12:01:54 root         INFO     ---	-	--> Set temperature controller to 30 C [set_temp]
+04-16 12:03:31 root         INFO     AM1	0	--> END: Set temperature controller to 30 C: [hyb]
+04-16 12:03:31 root         WARNING  AM1	0	--> Finished primer hybridization - duration: 11.38 minutes
+
+04-16 12:03:31 root         INFO     AM1	0	--> In lig_stepup_peg subroutine
+04-16 12:03:32 root         INFO     ---	-	--> Switch 3-way discrete valve V4 to NC (ligase buffer)
+04-16 12:03:32 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NC (from mixer to FC)
+04-16 12:03:32 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 12:03:32 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:32 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:32 root         INFO     ---	-	--> Set syringe pump valve position to 7
+04-16 12:03:32 root         INFO     ---	-	--> Set syringe pump absolute volume to 282
+04-16 12:03:32 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:03:33 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:03:33 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:33 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 12:03:33 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:33 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:35 root         INFO     ---	-	--> Set syringe pump valve position to 7
+04-16 12:03:35 root         INFO     ---	-	--> Set syringe pump absolute volume to 625
+04-16 12:03:35 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:35 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:03:36 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:36 root         INFO     AM1	0	--> START: Draw air bubble to mixing chamber's input/output needle: [lig_stepup_peg]
+04-16 12:03:36 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NC (from mixer to FC)
+04-16 12:03:36 root         INFO     AM1	0	--> Draw air gap to mixing chamber's input/output needle
+04-16 12:03:36 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:36 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:36 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:03:36 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 12:03:36 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:36 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:03:36 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:36 root         INFO     AM1	0	--> END: Drawn air bubble to mixing chamber's input/output needle: [lig_stepup_peg]
+04-16 12:03:36 root         INFO     AM1	0	--> START: Draw air bubble to syringe COM-port: [lig_stepup_peg]
+04-16 12:03:36 root         INFO     AM1	0	--> Push air gap just passed V0 COM-port
+04-16 12:03:36 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:36 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:37 root         INFO     ---	-	--> Set syringe pump valve position to 8
+04-16 12:03:37 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 12:03:37 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:37 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:03:37 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:37 root         INFO     AM1	0	--> END: Drawn air bubble to syringe COM-port: [lig_stepup_peg]
+04-16 12:03:37 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:37 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:38 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:03:38 root         INFO     ---	-	--> Set syringe pump absolute volume to 206
+04-16 12:03:38 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:38 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:03:38 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:38 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:38 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:39 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:03:39 root         INFO     ---	-	--> Set syringe pump absolute volume to 625
+04-16 12:03:39 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:03:39 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:03:39 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:39 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:39 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:40 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:03:40 root         INFO     ---	-	--> Set syringe pump absolute volume to 295
+04-16 12:03:40 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:03:40 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:03:40 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:40 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:40 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:41 root         INFO     ---	-	--> Set syringe pump valve position to 8
+04-16 12:03:41 root         INFO     ---	-	--> Set syringe pump absolute volume to 282
+04-16 12:03:41 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:42 root         INFO     ---	-	--> Set syringe pump valve position to 7
+04-16 12:03:42 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:42 root         INFO     AM1	0	--> START: Prepare nonamer-ligase mix from valve V1 - port 1: [lig_stepup_peg]
+04-16 12:03:42 root         INFO     ---	-	--> Switch 3-way discrete valve V4 to NO (ligase)
+04-16 12:03:42 root         INFO     AM1	0	--> Draw ligase (282 ul) up into system via V4
+04-16 12:03:42 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:42 root         INFO     ---	-	--> Set syringe pump speed to 23
+04-16 12:03:42 root         INFO     ---	-	--> Set syringe pump valve position to 7
+04-16 12:03:42 root         INFO     ---	-	--> Set syringe pump absolute volume to 282
+04-16 12:03:42 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:03:43 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:03:43 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:43 root         INFO     AM1	0	--> Push ligase into system (to mixing chamber) with 25 ul
+04-16 12:03:43 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:43 root         INFO     ---	-	--> Set syringe pump speed to 23
+04-16 12:03:43 root         INFO     ---	-	--> Set syringe pump valve position to 7
+04-16 12:03:43 root         INFO     ---	-	--> Set syringe pump absolute volume to 25
+04-16 12:03:43 root         INFO     ---	-	--> Set syringe pump speed to 23
+04-16 12:03:44 root         INFO     ---	-	--> Set syringe pump valve position to 8
+04-16 12:03:44 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:44 root         INFO     AM1	0	--> START: Draw air bubble to mixing chamber's input/output needle: [lig_stepup_peg]
+04-16 12:03:44 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NC (from mixer to FC)
+04-16 12:03:44 root         INFO     AM1	0	--> Draw air gap to mixing chamber's input/output needle
+04-16 12:03:44 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:44 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:44 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:03:44 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 12:03:44 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:44 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:03:44 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:44 root         INFO     AM1	0	--> END: Drawn air bubble to mixing chamber's input/output needle: [lig_stepup_peg]
+04-16 12:03:44 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 12:03:44 root         INFO     AM1	0	--> Switch rotary valve V3 to port 10
+04-16 12:03:45 root         INFO     AM1	0	--> Push ligase into mixing chamber with 89 ul
+04-16 12:03:45 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:45 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:45 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:03:45 root         INFO     ---	-	--> Set syringe pump absolute volume to 89
+04-16 12:03:45 root         INFO     ---	-	--> Set syringe pump speed to 23
+04-16 12:03:45 root         INFO     ---	-	--> Set syringe pump valve position to 8
+04-16 12:03:45 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:45 root         INFO     AM1	0	--> Empty mixing chamber to syringe port 8 path with 89 ul
+04-16 12:03:45 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:45 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:45 root         INFO     ---	-	--> Set syringe pump valve position to 8
+04-16 12:03:45 root         INFO     ---	-	--> Set syringe pump absolute volume to 89
+04-16 12:03:46 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:03:46 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:03:46 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:46 root         INFO     AM1	0	--> Push ligase back to reagent chamber 282 ul
+04-16 12:03:46 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:46 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:47 root         INFO     ---	-	--> Set syringe pump valve position to 8
+04-16 12:03:47 root         INFO     ---	-	--> Set syringe pump absolute volume to 282
+04-16 12:03:47 root         INFO     ---	-	--> Set syringe pump speed to 23
+04-16 12:03:48 root         INFO     ---	-	--> Set syringe pump valve position to 7
+04-16 12:03:48 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:48 root         INFO     AM1	0	--> START: Fill with air to valve V1 COM-port: [lig_stepup_peg]
+04-16 12:03:48 root         INFO     ---	-	--> Switch 3-way discrete valve V7 to NC (air)
+04-16 12:03:48 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 12:03:48 root         INFO     AM1	0	--> Switch rotary valve V1 to port 10
+04-16 12:03:48 root         INFO     AM1	0	--> Fill tube path with air to V1-COM
+04-16 12:03:48 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:48 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:48 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 12:03:49 root         INFO     ---	-	--> Set syringe pump absolute volume to 167
+04-16 12:03:49 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:03:49 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:03:49 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:49 root         INFO     ---	-	--> Switch 3-way discrete valve V7 to NO (Wash 1)
+04-16 12:03:49 root         INFO     AM1	0	--> END: Filled with air to valve V1 COM-port: [lig_stepup_peg]
+04-16 12:03:49 root         INFO     AM1	0	--> START: Draw air bubble to valve V1 COM-port: [lig_stepup_peg]
+04-16 12:03:49 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 12:03:49 root         INFO     AM1	0	--> Switch rotary valve V1 to port 10
+04-16 12:03:50 root         INFO     AM1	0	--> Draw air gap of size 30 ul in front of COM-port
+04-16 12:03:50 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:50 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:50 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 12:03:50 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 12:03:50 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:03:51 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:03:51 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:51 root         INFO     AM1	0	--> END: Drawn air bubble to valve V1 COM-port: [lig_stepup_peg]
+04-16 12:03:51 root         INFO     AM1	0	--> START: Draw air bubble to mixing chamber's input/output needle: [lig_stepup_peg]
+04-16 12:03:51 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NC (from mixer to FC)
+04-16 12:03:51 root         INFO     AM1	0	--> Draw air gap to mixing chamber's input/output needle
+04-16 12:03:51 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:51 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:52 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:03:52 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 12:03:52 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:52 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:03:52 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:52 root         INFO     AM1	0	--> END: Drawn air bubble to mixing chamber's input/output needle: [lig_stepup_peg]
+04-16 12:03:52 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 12:03:52 root         INFO     AM1	0	--> Switch valve V1 to 1 (nonamer)
+04-16 12:03:52 root         INFO     AM1	0	--> Push nonamer (221 ul) up to syringe pump COM-port
+04-16 12:03:52 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:52 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:52 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 12:03:53 root         INFO     ---	-	--> Set syringe pump absolute volume to 221
+04-16 12:03:53 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:03:53 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:03:53 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:53 root         INFO     AM1	0	--> Push nonamer (600 ul) towards mixing chamber (move )
+04-16 12:03:53 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:54 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:54 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 12:03:54 root         INFO     ---	-	--> Set syringe pump absolute volume to 379
+04-16 12:03:54 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:54 root         INFO     ---	-	--> Set syringe pump valve position to 1
+04-16 12:03:54 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:54 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 12:03:54 root         INFO     AM1	0	--> Switch valve V1 to 10 (air)
+04-16 12:03:55 root         INFO     AM1	0	--> Push nonamer (221 ul) towards mixing chamber (move 2)
+04-16 12:03:55 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:55 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:55 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 12:03:55 root         INFO     ---	-	--> Set syringe pump absolute volume to 221
+04-16 12:03:55 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:56 root         INFO     ---	-	--> Set syringe pump valve position to 1
+04-16 12:03:56 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:56 root         INFO     AM1	0	--> Push nonamer into mixing chamber with 99 ul air
+04-16 12:03:56 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:03:56 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:57 root         INFO     ---	-	--> Set syringe pump valve position to 8
+04-16 12:03:57 root         INFO     ---	-	--> Set syringe pump absolute volume to 99
+04-16 12:03:57 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:03:57 root         INFO     ---	-	--> Set syringe pump valve position to 1
+04-16 12:03:57 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:03:57 root         INFO     AM1	0	--> START: Mix reagent in mixing chamber for 30 seconds: [lig_stepup_peg]
+04-16 12:03:57 root         INFO     ---	-	--> Mixing chamber in use
+04-16 12:03:57 root         INFO     AM1	0	--> Wait for 30 seconds, i.e. mixing time
+04-16 12:04:27 root         INFO     ---	-	--> Mixing chamber is off
+04-16 12:04:27 root         INFO     AM1	0	--> END: Mixed reagent in mixing chamber for 30 seconds: [lig_stepup_peg]
+04-16 12:04:27 root         INFO     AM1	0	--> START: Clean V1 to syringe: [lig_stepup_peg]
+04-16 12:04:27 root         INFO     ---	-	--> Switch communication to ten port rotary valve V1
+04-16 12:04:27 root         INFO     AM1	0	--> Draw 271 'Wash' 1 up to syringe pump port 5 and eject tube content to waste
+04-16 12:04:27 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:04:27 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:04:28 root         INFO     ---	-	--> Set syringe pump valve position to 5
+04-16 12:04:28 root         INFO     ---	-	--> Set syringe pump absolute volume to 271
+04-16 12:04:28 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:04:29 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:04:29 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:04:29 root         INFO     AM1	0	--> END: Cleaned V1 to syringe: [lig_stepup_peg]
+04-16 12:04:29 root         INFO     AM1	0	--> END: Prepared nonamer-ligase mix from valve V1 - port 1: [lig_stepup_peg]
+04-16 12:04:29 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NC (from mixer to FC)
+04-16 12:04:29 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:04:29 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:04:29 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:04:30 root         INFO     ---	-	--> Set syringe pump absolute volume to 725
+04-16 12:04:30 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:04:30 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:04:30 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:04:30 root         INFO     AM1	0	--> START: Draw air bubble to mixing chamber's input/output needle: [lig_stepup_peg]
+04-16 12:04:30 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NC (from mixer to FC)
+04-16 12:04:30 root         INFO     AM1	0	--> Draw air gap to mixing chamber's input/output needle
+04-16 12:04:30 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:04:30 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:04:31 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:04:31 root         INFO     ---	-	--> Set syringe pump absolute volume to 30
+04-16 12:04:31 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:04:31 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:04:31 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:04:31 root         INFO     AM1	0	--> END: Drawn air bubble to mixing chamber's input/output needle: [lig_stepup_peg]
+04-16 12:04:31 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:04:31 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:04:32 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:04:32 root         INFO     ---	-	--> Set syringe pump absolute volume to 295
+04-16 12:04:32 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:04:32 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:04:32 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:04:32 root         INFO     ---	-	--> Switch communication to temperature controller 1
+04-16 12:04:32 root         INFO     -AM1	0	--> Set target temperature to 23 C: [lig_stepup_peg]
+
+04-16 12:04:32 root         INFO     ---	-	--> Set temperature control ON
+04-16 12:04:32 root         INFO     ---	-	--> Set temperature controller to 8 C [set_temp]
+04-16 12:04:32 root         INFO     AM1	0	--> START: Wait for steady-state - poll temperature 18 C: [lig_stepup_peg]
+04-16 12:08:32 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 3.99 minutes and current temperature: 18.99 C: [lig_stepup_peg]
+04-16 12:08:32 root         INFO     AM1	0	--> START: Draw reagent into flowcell 0: [lig_stepup_peg]
+04-16 12:08:32 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 12:08:32 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 12:08:32 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 12:08:32 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 12:08:32 root         INFO     AM1	0	--> Do iterative flushes (2636 ul) and eject to waste
+04-16 12:08:32 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:08:32 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:08:33 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:08:33 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:08:33 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:08:33 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:08:33 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:08:33 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:08:34 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:08:34 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:08:34 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:08:34 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:08:34 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:08:34 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:08:35 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:08:35 root         INFO     ---	-	--> Set syringe pump absolute volume to 636
+04-16 12:08:35 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:08:35 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:08:35 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:08:35 root         INFO     AM1	0	--> END: Drawn reagent into flowcell 0: [lig_stepup_peg]
+04-16 12:08:35 root         INFO     AM1	0	--> START: Incubate reagent for 5 min: [lig_stepup_peg]
+04-16 12:13:35 root         INFO     AM1	0	--> END: Incubated reagent: [lig_stepup_peg]
+04-16 12:13:35 root         INFO     ---	-	--> Switch communication to temperature controller 1
+04-16 12:13:35 root         INFO     -AM1	0	--> Set target temperature to 25 C: [lig_stepup_peg]
+
+04-16 12:13:35 root         INFO     ---	-	--> Set temperature control ON
+04-16 12:13:35 root         INFO     ---	-	--> Set temperature controller to 15 C [set_temp]
+04-16 12:13:35 root         INFO     AM1	0	--> START: Wait for steady-state - poll temperature 24 C: [lig_stepup_peg]
+04-16 12:13:35 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 0.00 minutes and current temperature: 15.55 C: [lig_stepup_peg]
+04-16 12:13:35 root         INFO     AM1	0	--> START: Incubate reagent for 5 min: [lig_stepup_peg]
+04-16 12:18:35 root         INFO     AM1	0	--> END: Incubated reagent: [lig_stepup_peg]
+04-16 12:18:35 root         INFO     ---	-	--> Switch communication to temperature controller 1
+04-16 12:18:35 root         INFO     -AM1	0	--> Set target temperature to 30 C: [lig_stepup_peg]
+
+04-16 12:18:35 root         INFO     ---	-	--> Set temperature control ON
+04-16 12:18:35 root         INFO     ---	-	--> Set temperature controller to 40 C [set_temp]
+04-16 12:18:35 root         INFO     AM1	0	--> START: Wait for steady-state - poll temperature 29 C: [lig_stepup_peg]
+04-16 12:19:03 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 0.45 minutes and current temperature: 28.28 C: [lig_stepup_peg]
+04-16 12:19:03 root         INFO     AM1	0	--> START: Incubate reagent for 5 min: [lig_stepup_peg]
+04-16 12:24:02 root         INFO     AM1	0	--> END: Incubated reagent: [lig_stepup_peg]
+04-16 12:24:02 root         INFO     ---	-	--> Switch communication to temperature controller 1
+04-16 12:24:02 root         INFO     -AM1	0	--> Set target temperature to 37 C: [lig_stepup_peg]
+
+04-16 12:24:02 root         INFO     ---	-	--> Set temperature control ON
+04-16 12:24:02 root         INFO     ---	-	--> Set temperature controller to 45 C [set_temp]
+04-16 12:24:02 root         INFO     AM1	0	--> START: Wait for steady-state - poll temperature 34 C: [lig_stepup_peg]
+04-16 12:24:02 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 0.00 minutes and current temperature: 39.52 C: [lig_stepup_peg]
+04-16 12:24:02 root         INFO     AM1	0	--> START: Incubate reagent for 5 min: [lig_stepup_peg]
+04-16 12:29:02 root         INFO     AM1	0	--> END: Incubated reagent: [lig_stepup_peg]
+04-16 12:29:02 root         INFO     ---	-	--> Switch communication to temperature controller 1
+04-16 12:29:02 root         INFO     ---	-	--> Set temperature control OFF
+04-16 12:29:02 root         INFO     AM1	0	--> START: Flush flowcell 3-times from port 8: [lig_stepup_peg]
+04-16 12:29:02 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NO (from V3 to FC)
+04-16 12:29:03 root         INFO     ---	-	--> Switch 3-way discrete valve V6 to NO (through FC 1)
+04-16 12:29:03 root         INFO     ---	-	--> Switch communication to ten port rotary valve V3
+04-16 12:29:03 root         INFO     AM1	0	--> Switch rotary valve V3 to port 8
+04-16 12:29:03 root         INFO     AM1	0	--> Flush flowcells 3-times (3891 ul) and eject to waste
+04-16 12:29:03 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:29:03 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:29:03 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:29:03 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:29:03 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:29:05 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:29:05 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:29:05 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:29:06 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:29:06 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:29:06 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:29:06 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:29:06 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:29:06 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:29:07 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:29:07 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:29:07 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:29:07 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:29:07 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:29:07 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:29:08 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:29:08 root         INFO     ---	-	--> Set syringe pump absolute volume to 891
+04-16 12:29:08 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:29:08 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:29:08 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:29:08 root         INFO     AM1	0	--> END: Flushed flowcell 3-times from port 8: [lig_stepup_peg]
+04-16 12:29:08 root         INFO     AM1	0	--> START: Set temperature controller to 30 C: [lig_stepup_peg]
+04-16 12:29:08 root         INFO     ---	-	--> Switch communication to temperature controller 1
+04-16 12:29:08 root         INFO     ---	-	--> Set temperature control ON
+04-16 12:29:08 root         INFO     ---	-	--> Set temperature controller to 30 C [set_temp]
+04-16 12:31:21 root         INFO     AM1	0	--> END: Set temperature controller to 30 C: [lig_stepup_peg]
+04-16 12:31:21 root         INFO     ---	-	--> Switch 3-way discrete valve V5 to NC (from mixer to FC)
+04-16 12:31:21 root         INFO     ---	-	--> Switch communication to ten port rotary valve V2
+04-16 12:31:21 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:31:21 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:31:22 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:31:22 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:31:22 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:31:22 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:31:22 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:31:22 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:31:23 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:31:23 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:31:23 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:31:25 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:31:25 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:31:25 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:31:26 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:31:26 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:31:26 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:31:26 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:31:26 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:31:26 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:31:27 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:31:27 root         INFO     ---	-	--> Set syringe pump absolute volume to 258
+04-16 12:31:27 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:31:27 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:31:27 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:31:27 root         INFO     AM1	0	--> START: Mix reagent in mixing chamber for 30 seconds: [lig_stepup_peg]
+04-16 12:31:27 root         INFO     ---	-	--> Mixing chamber in use
+04-16 12:31:27 root         INFO     AM1	0	--> Wait for 30 seconds, i.e. mixing time
+04-16 12:31:57 root         INFO     ---	-	--> Mixing chamber is off
+04-16 12:31:57 root         INFO     AM1	0	--> END: Mixed reagent in mixing chamber for 30 seconds: [lig_stepup_peg]
+04-16 12:31:57 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:31:57 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:31:58 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:31:58 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:31:58 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:31:58 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:31:58 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:31:58 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:31:59 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:31:59 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:31:59 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:31:59 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:31:59 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:31:59 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:00 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:32:00 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:32:00 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:32:00 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:32:01 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:01 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:01 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:32:01 root         INFO     ---	-	--> Set syringe pump absolute volume to 553
+04-16 12:32:01 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:32:02 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:32:02 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:02 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:32:02 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:02 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:32:02 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:32:02 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:02 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:32:03 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:03 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:03 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:32:03 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:32:03 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:04 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:32:04 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:04 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:04 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:32:05 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:32:05 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:05 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:32:05 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:05 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:06 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:32:06 root         INFO     ---	-	--> Set syringe pump absolute volume to 258
+04-16 12:32:06 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:06 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:32:06 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:06 root         INFO     AM1	0	--> START: Mix reagent in mixing chamber for 30 seconds: [lig_stepup_peg]
+04-16 12:32:06 root         INFO     ---	-	--> Mixing chamber in use
+04-16 12:32:06 root         INFO     AM1	0	--> Wait for 30 seconds, i.e. mixing time
+04-16 12:32:36 root         INFO     ---	-	--> Mixing chamber is off
+04-16 12:32:36 root         INFO     AM1	0	--> END: Mixed reagent in mixing chamber for 30 seconds: [lig_stepup_peg]
+04-16 12:32:36 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:32:36 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:37 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:32:37 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:32:37 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:32:37 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:32:37 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:37 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:38 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:32:38 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:32:38 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:32:38 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:32:38 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:38 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:39 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:32:39 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:32:39 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:32:39 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:32:39 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:39 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:40 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:32:40 root         INFO     ---	-	--> Set syringe pump absolute volume to 553
+04-16 12:32:40 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:32:40 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:32:41 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:41 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:32:41 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:41 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:32:41 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:32:41 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:41 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:32:41 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:41 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:42 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:32:42 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:32:42 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:43 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:32:43 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:43 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:43 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:32:43 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:32:43 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:44 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:32:44 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:44 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:44 root         INFO     ---	-	--> Set syringe pump valve position to 6
+04-16 12:32:45 root         INFO     ---	-	--> Set syringe pump absolute volume to 258
+04-16 12:32:45 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:32:45 root         INFO     ---	-	--> Set syringe pump valve position to 9
+04-16 12:32:45 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:32:45 root         INFO     AM1	0	--> START: Mix reagent in mixing chamber for 30 seconds: [lig_stepup_peg]
+04-16 12:32:45 root         INFO     ---	-	--> Mixing chamber in use
+04-16 12:32:45 root         INFO     AM1	0	--> Wait for 30 seconds, i.e. mixing time
+04-16 12:33:15 root         INFO     ---	-	--> Mixing chamber is off
+04-16 12:33:15 root         INFO     AM1	0	--> END: Mixed reagent in mixing chamber for 30 seconds: [lig_stepup_peg]
+04-16 12:33:15 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:33:15 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:33:15 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:33:15 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:33:16 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:33:16 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:33:16 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:33:16 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:33:17 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:33:17 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:33:17 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:33:17 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:33:17 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:33:17 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:33:18 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:33:18 root         INFO     ---	-	--> Set syringe pump absolute volume to 1000
+04-16 12:33:18 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:33:18 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:33:18 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:33:18 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:33:19 root         INFO     ---	-	--> Set syringe pump valve position to 2
+04-16 12:33:19 root         INFO     ---	-	--> Set syringe pump absolute volume to 553
+04-16 12:33:19 root         INFO     ---	-	--> Set syringe pump speed to 0
+04-16 12:33:19 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:33:19 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:33:19 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:33:19 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:33:20 root         INFO     ---	-	--> Set syringe pump valve position to 1
+04-16 12:33:20 root         INFO     ---	-	--> Set syringe pump absolute volume to 99
+04-16 12:33:20 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:33:21 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:33:21 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:33:21 root         INFO     ---	-	--> Switch communication to syringe pump
+04-16 12:33:21 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:33:21 root         INFO     ---	-	--> Set syringe pump valve position to 8
+04-16 12:33:21 root         INFO     ---	-	--> Set syringe pump absolute volume to 89
+04-16 12:33:21 root         INFO     ---	-	--> Set syringe pump speed to 7
+04-16 12:33:22 root         INFO     ---	-	--> Set syringe pump valve position to 4
+04-16 12:33:22 root         INFO     ---	-	--> Set syringe pump absolute volume to 0
+04-16 12:33:22 root         WARNING  AM1	0	--> Finished step-up peg ligation - duration: 29.84 minutes
+
+04-16 12:33:22 root         WARNING  AM1	0	--> Finished cycle ligation - duration: 45.08 minutes

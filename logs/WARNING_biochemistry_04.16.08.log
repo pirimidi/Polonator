@@ -1,0 +1,12 @@
+04-16 11:44:05 root         WARNING  WL1	0	--> END: Time to set steady-state temperature: 0.00 minutes and current temperature: 28.24 C: [running]
+04-16 11:44:05 root         WARNING  WL1	0	--> END: Time to set steady-state temperature: 0.00 minutes and current temperature: 28.29 C: [running]
+04-16 11:52:09 root         WARNING  AM1	0	--> Finished checmical strip - duration: 3.86 minutes
+04-16 11:53:22 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 1.07 minutes and current temperature: 50.08 C: [hyb]
+04-16 11:59:39 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 0.99 minutes and current temperature: 43.98 C: [hyb]
+04-16 12:03:31 root         WARNING  AM1	0	--> Finished primer hybridization - duration: 11.38 minutes
+04-16 12:08:32 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 3.99 minutes and current temperature: 18.99 C: [lig_stepup_peg]
+04-16 12:13:35 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 0.00 minutes and current temperature: 15.55 C: [lig_stepup_peg]
+04-16 12:19:03 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 0.45 minutes and current temperature: 28.28 C: [lig_stepup_peg]
+04-16 12:24:02 root         WARNING  AM1	0	--> END: Time to set steady-state temperature: 0.00 minutes and current temperature: 39.52 C: [lig_stepup_peg]
+04-16 12:33:22 root         WARNING  AM1	0	--> Finished step-up peg ligation - duration: 29.84 minutes
+04-16 12:33:22 root         WARNING  AM1	0	--> Finished cycle ligation - duration: 45.08 minutes
